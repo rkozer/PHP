@@ -60,7 +60,7 @@
                     </ul>
                 </div>
                 <div class="modulo azul">
-                    <h3>Tipos</h3>
+                    <h3>Variáveis</h3>
                     <ul>
                         <li>
                             <a href="exercicios.php?dir=variaveis&file=basico">
@@ -70,6 +70,21 @@
                         <li>
                             <a href="exercicios.php?dir=variaveis&file=desafio_equacao">
                                 Desafio Equação
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicios.php?dir=variaveis&file=desafio_variaveis">
+                                Desafio Variáveis
+                            </a>
+                        </li>                        
+                    </ul>
+                </div>
+                <div class="modulo roxo">
+                    <h3>If Else</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicios.php?dir=controle&file=if_else">
+                                If Else
                             </a>
                         </li>
                     </ul>

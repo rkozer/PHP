@@ -18,3 +18,8 @@ $inferior = 10 ** 3;
 $resultado = $superior / $inferior;
 
 echo "O resultado final é: " . $resultado . ".";
+
+echo '<br>';
+$numA = 'texto';
+$$numA = 'outro';
+echo "$numA {$$numA} ${$numA} $texto";
