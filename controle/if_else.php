@@ -12,7 +12,7 @@ if($idade == 30 && $alt == 1.70 && $nome == "Ricardo") {
     echo 'Não sou eu!';
 }
 
-echo "<p>Exemplo 'or', apenas uma condição precisa ser verdadeira<hr></p>";
+echo "<p class = 'divisao'>Exemplo 'or', apenas uma condição precisa ser verdadeira<hr></p>";
 
 $idade2 = 30;
 $alt2 = 1.70;
@@ -24,7 +24,7 @@ if($idade2 == 31 or $alt2 == 1.60 or $nome2 == "Ricard") {
     echo 'Não sou eu!';
 }
 
-echo "<p>Exemplo 'xor', duas condições verdadeira ou falsas retornam 'false'<hr></p>";
+echo "<p class = 'divisao'>Exemplo 'xor', duas condições verdadeira ou falsas retornam 'false'<hr></p>";
 
 $idade3 = 30;
 $alt3 = 1.70;
@@ -34,18 +34,3 @@ if($idade3 == 30 xor $alt3 == 1.70) {
 } else {
     echo 'Parece muito comigo!';
 }
-
-?>
-
-<style>
-p {
-    margin-bottom: 0px;
-    font-weight: bold;
-   
-}
-hr {
-    margin-top: 0px;
-    margin-bottom: -40px;
-
-}
-</style>

@@ -87,6 +87,11 @@
                                 If Else
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicios.php?dir=controle&file=desafio_operadores_logicos">
+                                Desafio Operadores Lógicos
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
