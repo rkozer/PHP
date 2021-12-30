@@ -92,6 +92,11 @@
                                 Desafio Operadores Lógicos
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicios.php?dir=controle&file=desafio_switch">
+                                Desafio Switch
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
