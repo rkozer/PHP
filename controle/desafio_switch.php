@@ -1,4 +1,4 @@
-<div class="titulo">Desafio Switch</div>
+<div class="titulo">Desafio Switch 01</div>
 
 <form action="#" method="post">
     <input type="text" name="param">
@@ -29,6 +29,9 @@
         background-color: red;
         border-color: #8B0000;
     }
+    .titulo {
+        margin-top: 50px;
+    }
 </style>
 
 <?php
@@ -55,9 +58,48 @@ switch ($_POST["conversao"]){
         $medida2 = " metro(s) !";
         break;
 }
-$medidaformatada = number_format($result, 3, '.', '.');
+//$medidaformatada = number_format($result, 3, ',','.');
 //$medidaformatada = number_format($_POST["param"], 0, '.', '.');
 
-echo $_POST["param"] . " ". $medida1 . " correspondem a " . $medidaformatada . $medida2;
+if ($result){
+    echo $_POST["param"] . " ". $medida1 . " correspondem a " . $result . $medida2;
+}
+else {
+    echo 'sem dados';
+}
+
 
 ?>
+
+<div class="titulo">Desafio Switch 02</div>
+
+<form action="#" method="post">
+    <input type="text" name="para">
+    <select name="conversao2" id="conversao2">
+        <option value="graus-fahrenheit">Graus > Fahrenheit</option>
+        <option value="fahrenheit-graus">Fahrenheit > Graus</option>
+    </select>
+    <button>Calcular</button>
+</form>
+
+<?php
+
+switch ($_POST["conversao2"]){
+    case "graus-fahrenheit":
+        $result1 = $_POST["para"] * 1.8 + 32;
+        $medida1 = "graus Celsius";
+        $medida2 = " graus Farenheit !";
+        break;
+    case "fahrenheit-graus":
+        $result1 = ($_POST["para"] - 32) / 1.8;
+        $medida1 = "graus Fahrenheit";
+        $medida2 = " graus Celsius !";
+        break;
+    }
+
+    if ($result1){
+        echo $_POST["para"] . " ". $medida1 . " correspondem a " . $result1 . $medida2;
+    }
+    else {
+        echo 'sem dados';
+    }
