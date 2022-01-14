@@ -65,7 +65,7 @@ if ($result){
     echo $_POST["param"] . " ". $medida1 . " correspondem a " . $result . $medida2;
 }
 else {
-    echo 'sem dados';
+    echo '';
 }
 
 
@@ -101,5 +101,5 @@ switch ($_POST["conversao2"]){
         echo $_POST["para"] . " ". $medida1 . " correspondem a " . $result1 . $medida2;
     }
     else {
-        echo 'sem dados';
+        echo '';
     }
