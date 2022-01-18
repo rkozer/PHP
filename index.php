@@ -112,6 +112,11 @@
                                 Mapa
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicios.php?dir=array&file=operacoes">
+                                Operações
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
