@@ -117,6 +117,31 @@
                                 Operações
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicios.php?dir=array&file=multidimensionais">
+                                Multidimensionais
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicios.php?dir=array&file=get">
+                                $_GET
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicios.php?dir=array&file=post">
+                                $_POST
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo verde-escuro">
+                    <h3>Repetições</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicios.php?dir=repeticoes&file=for">
+                                Laço For
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>

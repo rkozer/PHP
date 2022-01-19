@@ -11,7 +11,9 @@ $dados2 = [
     "naturalidade" => "Fortaleza"
 ];
 
-$dadoscompletos = $dados1 + $dados2;
+$dados2["endereço"] = "Rua A";
+
+$dadoscompletos = $dados1 + $dados2; 
 
 print_r($dadoscompletos);
 
@@ -35,5 +37,28 @@ var_dump($dadoscompletos);
 $impares = [1, 3, 5, 7 , 9];
 $pares = [0, 2, 4, 6, 8];
 
-$decimais = 
+$decimais = $impares + $pares;
+echo '<br>'; 
+print_r($decimais); 
 
+$decimais = array_merge($pares, $impares);
+echo '<br>';
+print_r($decimais);
+
+sort($decimais);
+echo '<br>';
+print_r($decimais);
+
+$personagens = ["Elza", "Raponzel", "Branca de Neve", "Cinderela"];
+$resultado = array_rand($personagens);
+echo '<br>';
+echo "<div center><h1>$personagens[$resultado]</h1></div>";
+
+?>
+
+<style>
+    [center]{
+        display: flex;
+        justify-content: center;
+    }
+</style>
