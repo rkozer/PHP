@@ -142,6 +142,11 @@
                                 Laço For
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicios.php?dir=repeticoes&file=desafiofor">
+                                Desafio For
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
