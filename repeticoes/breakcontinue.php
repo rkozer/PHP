@@ -1,0 +1,45 @@
+<div class="titulo">Break/Continue</div>
+
+<?php
+$cont = 16;
+
+for(;;){
+    echo "$cont <br>";
+    $cont++;
+    if ($cont > 20){
+        break;
+    }
+}
+echo "FIM <hr><br>";
+
+for(;;){
+    $cont++;
+    if ($cont % 2 === 0){
+        continue;
+    }
+    echo "$cont <br>";
+    if($cont >= 30){
+        break;
+    }
+}
+
+echo "FIM! <br>";
+
+foreach(array(1,2,3,4,5,6,7,8,9) as $valor){
+    if($valor === 5){
+        break;
+    }
+    if($valor % 2 === 0){
+        continue;
+    }
+    echo "$valor <br>";
+}
+echo "Fim <hr><br>";
+
+
+foreach(array(1,2,3,4,5,6,7,8,9) as $valor2){
+    if($valor2 === 5){
+        continue;
+    }
+    echo "$valor2 <br>";
+}

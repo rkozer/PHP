@@ -147,6 +147,26 @@
                                 Desafio For
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicios.php?dir=repeticoes&file=foreach">
+                                For Each
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicios.php?dir=repeticoes&file=breakcontinue">
+                                Break / Continue
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicios.php?dir=repeticoes&file=desafiorepeticao">
+                                Desafio Repetição
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicios.php?dir=repeticoes&file=while">
+                                While
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
