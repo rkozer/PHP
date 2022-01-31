@@ -167,6 +167,16 @@
                                 While
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicios.php?dir=repeticoes&file=desafiotabela">
+                                Desafio Tabela
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicios.php?dir=repeticoes&file=desafiotabela2">
+                                Desafio Tabela 02
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
