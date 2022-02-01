@@ -1,28 +1,33 @@
-<div class="titu">Desafio Tabela 02</div>
+<div class="titulo">Desafio Tabela 02</div>
 
 <form action="#" method="post">
-    <input type="text" name="0">
-    <input type="text" name="1">
-    <input type="text" name="2">
+    <input type="text" value=<?= $_POST["0"] ?? 1 ?> name="0" id="0">
+    <input type="text" value=<?= $_POST["1"] ?? 1 ?> name="1" id="1">
+    <input type="text" value=<?= $_POST["2"] ?? 1 ?> name="2" id="2">
     <button>Enviar</button>
 </form>
 
 
 
 <?php
-$result = [($_POST)];
-
-$result2 = array_push($result, $_POST);
-//print_r($result);
-
-//echo $result;
-//print_r($_result);
+$result = [$_POST];
+//array_push($result, $_POST);
 
 
-//foreach($result as $linhas){
-//        echo "$linhas ";
-//    }
-//    echo "<br>";
+//$cesta = array("laranja", "morango");
+//array_push($cesta, "melancia", "batata");
+
+print_r($result);
+
+
+//$result2 = array_push($result, $_POST);
+
+//while($result = true){
+//    echo "while(true) $contador <br>";
+//    $contador++;
+//    if($contador >= VALOR_LIMITE) break;
+//}
+
 
 ?>
 
