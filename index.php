@@ -179,6 +179,16 @@
                         </li>
                     </ul>
                 </div>
+                <div class="modulo vermelho-escuro">
+                    <h3>Funções</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicios.php?dir=funcoes&file=desafiopalindromo">
+                                Desafio Palíndromo
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
