@@ -42,3 +42,23 @@ function palindromo2($palavra){
 echo palindromo($palavra);
 
 
+echo "<hr><br>";
+
+$a = 7;
+
+function recursivo(){
+    $soma = 1;
+    for ($i = 7; $i >=1; $i--){
+        $soma *= $i;
+    }echo $soma . '<br>';
+};
+
+echo recursivo();
+
+function recursivoDeVerdade($numero){
+    if($numero === 1){
+        return "1";
+    } return $numero * recursivoDeVerdade($numero - 1);
+};
+
+echo recursivoDeVerdade(7);
