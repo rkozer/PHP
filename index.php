@@ -187,6 +187,11 @@
                                 Desafio Palíndromo
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicios.php?dir=funcoes&file=desafiorecursivo">
+                                Desafio Recursivo
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
